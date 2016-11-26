@@ -37,8 +37,7 @@ By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that 
 What is the 10 001st prime number?
 
 - [x] **Problem 8. Largest product in a series.**
-The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832.
-
+The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832.<br>
 73167176531330624919225119674426574742355349194934
 96983520312774506326239578318016984801869478851843
 85861560789112949495459501737958331952853208805511
@@ -58,6 +57,16 @@ The four adjacent digits in the 1000-digit number that have the greatest product
 07198403850962455444362981230987879927244284909188
 84580156166097919133875499200524063689912560717606
 05886116467109405077541002256983155200055935729725
-71636269561882670428252483600823257530420752963450
-
+71636269561882670428252483600823257530420752963450 <br>
 Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
+
+- [x] **Problem 9. Special Pythagorean triplet.**
+A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,<br>
+a^2 + b^2 = c^2 <br>
+For example, 3^2 + 4^2 = 9 + 16 = 25 = 5^2. <br>
+There exists exactly one Pythagorean triplet for which a + b + c = 1000.
+Find the product abc.
+
+- [x] **Problem 10. Summation of primes.**
+The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+Find the sum of all the primes below two million.
