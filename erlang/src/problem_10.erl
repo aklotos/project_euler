@@ -9,9 +9,11 @@
 %% API
 -export([result/0]).
 
+-define(MAX, 2000000).
+
 result() ->
-  Numbers = [2 | [N || N <- lists:seq(2,2000000), N rem 2 =/= 0] ],
-  Primes = sieve(Numbers, {3, trunc(math:sqrt(2000000)) + 1}),
+  Numbers = [2 | [N || N <- lists:seq(2,?MAX), N rem 2 =/= 0] ],
+  Primes = sieve(Numbers, {3, trunc(math:sqrt(?MAX)) + 1}),
   lists:sum(Primes).
 
 sieve(Numbers, {Next, Max}) when Next > Max ->
