@@ -1,3 +1,5 @@
 .idea
 *.beam
 *.iml
+java/
+nodejs/node_modules/

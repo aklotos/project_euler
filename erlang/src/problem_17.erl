@@ -15,17 +15,14 @@ result() ->
     [get_character_number(N, numbers()) || N <- lists:seq(1, 1000)]).
 
 get_character_number(N, Map) ->
-  Number = if
+  if
     N =< 20 orelse (N =< 99 andalso N rem 10 == 0) -> maps:get(N, Map);
     N =< 99 -> sum([maps:get((N div 10) * 10, Map), maps:get(N rem 10, Map)]);
     N == 1000 -> sum([get_character_number(1, Map), maps:get(thousand, Map)]);
     N rem 100 == 0  -> sum([get_character_number(N div 100, Map), maps:get(hundred, Map)]);
     true -> sum([get_character_number(N div 100, Map), maps:get(hundred, Map),
       maps:get(join, Map), get_character_number(N rem 100, Map)])
-  end,
-%%  io:format("=> ~p~n", [Number]),
-  Number
-.
+  end.
 
 sum(List) ->
   lists:foldl(
