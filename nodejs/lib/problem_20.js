@@ -13,12 +13,14 @@
 const bigint = require('big-integer');
 
 function problem20() {
+    // computes 100!
     let prod = bigint(1);
     for (let i = 1; i < 101; i++) {
         prod = prod.multiply(i);
     }
 
-    let result = prod.toString().split('').reduce((result, v) => {
+    // computes sum of digits
+    const result = prod.toString().split('').reduce((result, v) => {
         return result + parseInt(v)
     }, 0);
 
