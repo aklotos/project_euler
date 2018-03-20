@@ -346,4 +346,18 @@ https://projecteuler.net
             <a href="https://github.com/aklotos/project_euler/blob/master/python/lib/problem_24.py">Source</a>
         </td>
     </tr>
+    <tr>
+        <td>25</td>
+        <td>
+            <b>
+                <a href="https://projecteuler.net/problem=25">
+                    1000-digit Fibonacci number
+                </a>
+            </b>
+        </td>
+        <td>Python</td>
+        <td>
+            <a href="https://github.com/aklotos/project_euler/blob/master/python/lib/problem_25.py">Source</a>
+        </td>
+    </tr>
 </table>
