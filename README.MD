@@ -332,4 +332,18 @@ https://projecteuler.net
             <a href="https://github.com/aklotos/project_euler/blob/master/nodejs/lib/problem_23.js">Source</a>
         </td>
     </tr>
+    <tr>
+        <td>24</td>
+        <td>
+            <b>
+                <a href="https://projecteuler.net/problem=24">
+                    Lexicographic permutations
+                </a>
+            </b>
+        </td>
+        <td>Python</td>
+        <td>
+            <a href="https://github.com/aklotos/project_euler/blob/master/python/lib/problem_24.py">Source</a>
+        </td>
+    </tr>
 </table>
