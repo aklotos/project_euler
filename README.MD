@@ -360,4 +360,18 @@ https://projecteuler.net
             <a href="https://github.com/aklotos/project_euler/blob/master/python/lib/problem_25.py">Source</a>
         </td>
     </tr>
+    <tr>
+        <td>26</td>
+        <td>
+            <b>
+                <a href="https://projecteuler.net/problem=26">
+                    Reciprocal cycles
+                </a>
+            </b>
+        </td>
+        <td>Python</td>
+        <td>
+            <a href="https://github.com/aklotos/project_euler/blob/master/python/lib/problem_26.py">Source</a>
+        </td>
+    </tr>
 </table>
